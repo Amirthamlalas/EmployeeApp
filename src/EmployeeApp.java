@@ -41,11 +41,12 @@ public class EmployeeApp {
                     System.out.println("Enter phone no");
                     Double phn = sc.nextDouble();
                     arrli.add(phn);
+
                     System.out.println("Enter email address");
                     String mail = sc.next();
                     arrli.add(mail);
 
-                    System.out.println(arrli);
+
                 break;
 
 
