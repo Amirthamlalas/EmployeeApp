@@ -49,6 +49,27 @@ public class EmployeeApp {
 
                 break;
 
+                case 2:
+                    System.out.println("Employee details");
+
+                    for(int i =0;i<arrli.size();i++){
+                        System.out.println(arrli.get(i));
+                    }
+                    System.out.println();
+                    break;
+
+                case 3:
+                    System.out.println("enter employee code");
+                    int empcode = sc.nextInt();
+                    if(arrli.contains(empcode)){
+                        System.out.println("Employee found");
+                    }
+                    else{
+                        System.out.println("Employee not found");
+                    }
+
+
+
 
 
             }
